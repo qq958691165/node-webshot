@@ -20,7 +20,7 @@ app.get('/', async (req, res) => {
         }
 
         const ret = await webshot({
-            url: 'http://www.baidu.com',
+            url,
             viewport,
         })
 
